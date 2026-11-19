@@ -13,7 +13,7 @@ function draw(){
   background(255,245,235)
 
   ambientLight(150);
-  directionalLight(255, 255, 255, 0, 0, -1);
+  directionalLight(255, 255, 255, 0, -.5, -1);
 
   noStroke()
   orbitControl();
